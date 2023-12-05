@@ -16,4 +16,13 @@ public class Rettangolo {
 
 
     // METODI
+
+    // Metodo che calcola l'area del rettangolo
+    int calcolaArea() {
+        return base * altezza;
+    }
+
+    int calcolaPerimetro() {
+        return (2 * base) + (2 * altezza);
+    }
 }
