@@ -32,4 +32,17 @@ public class Rettangolo {
         this.altezza = altezza;
     }
 
+    void disegna() {
+        for (int i = 0; i < altezza; i++) {
+            for (int j = 0; j < base; j++) {
+                if (i == 0 || i == altezza - 1 || j == 0 || j == base - 1) {
+                    System.out.print("o");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
 }

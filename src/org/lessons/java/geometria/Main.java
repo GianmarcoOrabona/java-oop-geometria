@@ -29,6 +29,8 @@ public class Main {
         System.out.println("Perimetro: " + rettangolo.calcolaPerimetro());
         System.out.println("Area: " + rettangolo.calcolaArea());
 
+        // Stampare il rettangolo
+        rettangolo.disegna();
 
         scanner.close();
     }
