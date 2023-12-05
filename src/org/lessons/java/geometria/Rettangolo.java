@@ -18,6 +18,7 @@ public class Rettangolo {
     // METODI
 
     // Metodo che calcola l'area del rettangolo
+
     int calcolaArea() {
         return base * altezza;
     }
@@ -25,4 +26,10 @@ public class Rettangolo {
     int calcolaPerimetro() {
         return (2 * base) + (2 * altezza);
     }
+
+    void reimpostaValori (int base, int altezza) {
+        this.base = base;
+        this.altezza = altezza;
+    }
+
 }
